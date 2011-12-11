@@ -30,9 +30,10 @@ class Opinion {
         private $prior = array('positive' => 0.5, 'negative' => 0.5);
         
         
-        //Add the known data to the index. Takes a text file, and a sentiment (either positive or negative), 
-        //and if you want to limit the amount of sentiment data analyzed, 
-        //enter the number of lines you want to sample as $limit. Defaults to 0. 
+        /* Add the known data to the index. Takes a text file, and a sentiment (either positive or negative), 
+        and if you want to limit the amount of sentiment data analyzed, 
+        enter the number of lines you want to sample as $limit. Defaults to 0. 
+        */
         public function addToIndex($file, $class, $limit = 0) {
                 $fh = fopen($file, 'r');
                 $i = 0;
