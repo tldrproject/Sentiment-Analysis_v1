@@ -21,6 +21,7 @@ sorry if it comes off as n00b-ish....
 
 
 **DATA CITATION**
+
 This data was first used in Bo Pang and Lillian Lee,
 ``Seeing stars: Exploiting class relationships for sentiment categorization
 with respect to rating scales.'', Proceedings of the ACL, 2005.
@@ -36,6 +37,7 @@ with respect to rating scales.'', Proceedings of the ACL, 2005.
 
 
 **DATA INFO**
+
 positivedata.txt contains 5331 positive snippets
 
 negativedata.txt contains 5331 negative snippets
@@ -48,6 +50,7 @@ section "Label Decision").
 
 
 **LABEL DECISION**
+
 We assumed snippets (from Rotten Tomatoes webpages) for reviews marked with 
 "fresh" are positive, and those for reviews marked with "rotten" are
 negative.
