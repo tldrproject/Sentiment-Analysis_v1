@@ -85,7 +85,7 @@ class Opinion {
                 return key($classScores);
         }
         
-        //Find matches in either positive or negative sentiment. Takes a string as a paremeter.
+        //Find matches in either positive or negative sentiment. Takes a string as a parameter.
         private function tokenise($document) {
                 $document = strtolower($document);
                 preg_match_all('/\w+/', $document, $matches);
