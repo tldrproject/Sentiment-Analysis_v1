@@ -43,10 +43,14 @@
           }
   }
   
-  //<do better> 
-  //This isn't the cleanest it could be. If you can think of a better way of doing this, please tell me. cpopensource [at] gmail.com
+  /* 
+  <do better> 
+  This isn't the cleanest it could be. If you can think of a better way of doing this, please tell me. 
+  cpopensource [at] gmail.com
   
-  //Reverse sort the score in order to find the most likely sentiment (positive or negative)
+  Reverse sort the score in order to find the most likely sentiment (positive or negative)
+  */
+  
   arsort($score);
   
   //To find how much bias there is (assurance), divide the positive sentiment score by the negative
