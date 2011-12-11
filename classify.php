@@ -69,7 +69,7 @@
   //As the sentiment (positive and negative) are the keys in the array, find the key of the sentiment.
   $keyArray = array_keys($score);
   
-  //If we're not sure (the assurance (above) is less than .47, its inconclusive. Otherwise, it's most likely good.
+  //If we're not sure (the assurance (above) is less than .47), it's inconclusive. Otherwise, it's most likely good.
   if($assurance>.47){
       $sentiment = $keyArray[0];
   } else {
