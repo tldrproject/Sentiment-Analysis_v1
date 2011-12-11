@@ -15,16 +15,16 @@
   //limitations under the License.
   
   include('Opinion.class.php');
-  $op = new Opinion();
-  $op->addToIndex('negativedata.txt', 'negative');
-  $op->addToIndex('positivedata.txt', 'positive');
+  $sentimentData = new Opinion();
+  $sentimentData->addToIndex('negativedata.txt', 'negative');
+  $sentimentData->addToIndex('positivedata.txt', 'positive');
   
   //Add your data in a "$doc" variable.
   $sentences = explode(".", $doc);
   $score = array('positive' => 0, 'negative' => 0);
   foreach($sentences as $sentence) {
           if(strlen(trim($sentence))) {
-                  $class = $op->classify($sentence);
+                  $class = $sentimentData->classify($sentence);
                   $score[$class]++;
           }
   }
