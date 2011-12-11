@@ -38,7 +38,7 @@
   } 
   array_pop($score);
   
-  //</do better>
+  //<do better/>
   
   $keyArray = array_keys($score);
   if($assurance>.4){
