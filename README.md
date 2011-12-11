@@ -49,7 +49,7 @@ section "Label Decision").
 
 **LABEL DECISION**
 We assumed snippets (from Rotten Tomatoes webpages) for reviews marked with 
-``fresh'' are positive, and those for reviews marked with ``rotten'' are
+"fresh" are positive, and those for reviews marked with "rotten" are
 negative.
 
 To make sure that the polarity of the data is real and not happenstance, 
