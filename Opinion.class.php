@@ -1,6 +1,6 @@
 <?php
 //Sentiment Analysis (Opinion Class) using bayesian Opinion Mining
-//Copyright 2011 The tldr Project c/o ipsumedia Limited. Opinion class taken from Ian Barbors Bayesian Opinion Mining found at: http://www.phpir.com/bayesian-opinion-mining
+//Copyright 2011 The tldr Project c/o ipsumedia Limited. Opinion class taken from Ian Barbor's Bayesian Opinion Mining found at: http://www.phpir.com/bayesian-opinion-mining
 
 //Licensed under the Apache License, Version 2.0 (the "License");
 //you may not use this file except in compliance with the License.
