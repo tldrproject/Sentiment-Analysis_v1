@@ -11,7 +11,7 @@ PHP sentiment analysis using bayesian opinion mining. This is my first time crea
 
 
 **AUTHORS**  
-Colin Poindexter <cpopensource [at] gmail.com> for The tldr Project (www.tldrproject.com)
+Colin Poindexter (cpopensource [at] gmail.com) for The tldr Project (www.tldrproject.com)
 
 Ian Black (where the real heavy lifting for this came). Check out his blog here: http://www.phpir.com/
 
