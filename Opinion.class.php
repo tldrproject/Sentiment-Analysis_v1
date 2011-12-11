@@ -1,7 +1,10 @@
 <?php
-//Sentiment Analysis (Opinion Class) using bayesian Opinion Mining
-//Copyright 2011 The tldr Project c/o ipsumedia Limited. Opinion class taken from Ian Barber's Bayesian Opinion Mining found at: http://www.phpir.com/bayesian-opinion-mining
 
+//Sentiment Analysis (Opinion Class) using bayesian Opinion Mining
+//Copyright 2011 The tldr Project c/o ipsumedia Limited. Opinion class taken from Ian Barber's 
+//Bayesian Opinion Mining found at: http://www.phpir.com/bayesian-opinion-mining
+
+//LICENSE: 
 //Licensed under the Apache License, Version 2.0 (the "License");
 //you may not use this file except in compliance with the License.
 //You may obtain a copy of the License at
@@ -24,7 +27,9 @@ class Opinion {
         private $prior = array('positive' => 0.5, 'negative' => 0.5);
         
         
-        //Add the known data to the index. Takes a text file, and a sentiment (either positive or negative), and if you want to limit the amount of sentiment data analyzed, enter the number of lines you want to sample as $limit. Defaults to 0. 
+        //Add the known data to the index. Takes a text file, and a sentiment (either positive or negative), 
+        //and if you want to limit the amount of sentiment data analyzed, 
+        //enter the number of lines you want to sample as $limit. Defaults to 0. 
         public function addToIndex($file, $class, $limit = 0) {
                 $fh = fopen($file, 'r');
                 $i = 0;
