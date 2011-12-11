@@ -16,6 +16,7 @@ Colin Poindexter (cpopensource [at] gmail.com) for The tldr Project (www.tldrpro
 Ian Black (where the real heavy lifting for this came). Check out his blog here: http://www.phpir.com/
 
 Chuck Testa
+http://www.youtube.com/watch?v=mbUVtfUWwF8
 
 
 **CHANGELOG**  
