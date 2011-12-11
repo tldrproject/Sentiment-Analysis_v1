@@ -1,21 +1,24 @@
 <?php
 
-//Sentiment Analysis (Opinion Class) using bayesian Opinion Mining
-//Copyright 2011 The tldr Project c/o ipsumedia Limited. Opinion class taken from Ian Barber's 
-//Bayesian Opinion Mining found at: http://www.phpir.com/bayesian-opinion-mining
+/* 
+Sentiment Analysis (Opinion Class) using bayesian Opinion Mining
+Copyright 2011 The tldr Project c/o ipsumedia Limited. Opinion class taken from Ian Barber's 
+Bayesian Opinion Mining found at: http://www.phpir.com/bayesian-opinion-mining
 
-//LICENSE: 
-//Licensed under the Apache License, Version 2.0 (the "License");
-//you may not use this file except in compliance with the License.
-//You may obtain a copy of the License at
 
-    //http://www.apache.org/licenses/LICENSE-2.0
+LICENSE: 
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-//Unless required by applicable law or agreed to in writing, software
-//distributed under the License is distributed on an "AS IS" BASIS,
-//WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-//See the License for the specific language governing permissions and
-//limitations under the License.
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
 
 class Opinion {
         private $index = array();
