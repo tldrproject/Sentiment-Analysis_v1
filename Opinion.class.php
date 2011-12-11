@@ -32,7 +32,7 @@ class Opinion {
         
         /* Add the known data to the index. Takes a text file, and a sentiment (either positive or negative), 
         and if you want to limit the amount of sentiment data analyzed, 
-        enter the number of lines you want to sample as $limit. Defaults to 0. */
+        enter the number of lines you want to sample as $limit. Defaults to 0, meaning analyze everything. */
         
         public function addToIndex($file, $class, $limit = 0) {
                 $fh = fopen($file, 'r');
