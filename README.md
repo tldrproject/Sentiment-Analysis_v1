@@ -15,7 +15,7 @@ sorry if it comes off as n00b-ish....
 
 **Colin Poindexter** (cpopensource [at] gmail.com) for The tldr Project (www.tldrproject.com)
 
-**Ian Black** (where the real heavy lifting for this came). Check out his blog here: http://www.phpir.com/
+**Ian Barbor** (where the real heavy lifting for this came). Check out his blog here: http://www.phpir.com/
 
 **Chuck Testa** http://www.youtube.com/watch?v=mbUVtfUWwF8
 
