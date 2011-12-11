@@ -23,8 +23,8 @@ sorry if it comes off as n00b-ish....
 **DATA CITATION**
 
 This data was first used in Bo Pang and Lillian Lee,
-``Seeing stars: Exploiting class relationships for sentiment categorization
-with respect to rating scales.'', Proceedings of the ACL, 2005.
+"Seeing stars: Exploiting class relationships for sentiment categorization
+with respect to rating scales.", Proceedings of the ACL, 2005.
   
 @InProceedings{Pang+Lee:05a,
   author =       {Bo Pang and Lillian Lee},
