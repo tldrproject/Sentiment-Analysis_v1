@@ -1,4 +1,4 @@
-**The tldr Project**   
+**The tl;dr Project**   
 *www.tldrproject.com*
 
 
