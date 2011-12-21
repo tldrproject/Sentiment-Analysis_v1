@@ -26,7 +26,7 @@
   $sentimentData->addToIndex('positivedata.txt', 'positive');
   
   //Add your data in a "$doc" variable.
-  
+  $doc="I'll start bothering about the cliched depiction of India in MI4 once every white woman stops being bikini clad and promiscuous in our films";
   //Put sentances of string into array.
   $sentences = explode(".", $doc);
   
@@ -54,11 +54,19 @@
   arsort($score);
   
   //To find how much bias there is (assurance), divide the positive sentiment score by the negative
-  $assurance = $score['positive']/$score['negative'];
   
-  //If the assurance is not a decimal...
-  if($assurance>1){
-      $assurance = $score['negative']/$score['positive'];
+  if($score['positive']>0&&$score['negative']>0)
+  {
+	  $assurance = $score['positive']/$score['negative'];
+	  
+	  //If the assurance is not a decimal...
+	  if($assurance>1){
+		  $assurance = $score['negative']/$score['positive'];
+	  }
+  }
+  else
+  {
+	$assurance=1;	
   }
   
   //Remove the least likey alternative 
@@ -70,7 +78,7 @@
   $keyArray = array_keys($score);
   
   //If we're not sure (the assurance (above) is less than .47), it's inconclusive. Otherwise, it's most likely good.
-  if($assurance>.47){
+  if($assurance>.30){
       $sentiment = $keyArray[0];
   } else {
       $sentiment = "inconclusive";
